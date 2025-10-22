@@ -1,0 +1,44 @@
+# Chronic Pain Model:
+
+This repository contains Python code for modeling the development and recovery of chronic pain using a theoretical framework derived from our upcoming manuscript:  
+**"A recurrent neural network gives rise to a chronic pain attractor depending on calming stimulus"**  
+(Authors: Guy Marmor, Tjitse van der Molen, Zongren Zhang, Francesco Bullo)
+
+---
+
+## Acknowledgments
+Parts of this project were developed with assistance from ChatGPT, an AI language model created by OpenAI.
+
+## Overview
+We propose a mathematical model describing the temporal dynamics of pain sensitization and recovery.  
+The model integrates physiological mechanisms of hyperalgesia and desensitization into a unified dynamical system, implemented in Python.
+
+The simulations reproduce and fit data from:
+- **Shape shifting pain: chronification of back pain shifts brain representation from nociceptive to emotional circuits. Brain.**(ShapeShifting Data)
+- **Effect of Pain Reprocessing Therapy vs Placebo and Usual Care for Patients With Chronic Back Pain: A Randomized Clinical Trial. JAMA Psychiatry.**(BoulderRecoveryData)
+- **Our own collected dataset**(PatientDataTemplate)
+- **Hyperalgesia Figures**(HyperAlgesia)
+
+---
+
+## Repository Contents
+| File | Description |
+|------|--------------|
+| `BoulderRecoveryData.py` | Implements model fitting to Boulder study recovery data |
+| `FamilyOfCurves.py` | Defines parametric family of sensitization and recovery curves |
+| `Hyperalgesia.py` | Reproduces hyperalgesia figure using the model |
+| `LossMinimizer.py` | Optimization / loss-minimization algorithm for fitting data |
+| `PatientDataTemplate.py` | Template structure for organizing patient data inputs |
+| `ShapeShifting Data.py` | Generates and visualizes model variants for shape-shifting dynamics |
+
+---
+
+Installation
+
+> Tested with Python 3.8+.
+
+```bash
+Clone
+git clone https://github.com/GuyMarmor/ChronicPainModel.git
+cd ChronicPainModel
+pip install numpy scipy matplotlib tqdm
