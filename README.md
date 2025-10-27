@@ -7,7 +7,7 @@ This repository contains Python code for modeling the development and recovery o
 ---
 
 ## Acknowledgments
-Parts of this project were developed with assistance from ChatGPT, an AI language model created by OpenAI.
+Parts of this project were developed with assistance from ChatGPT, an AI language model created by OpenAI. Full details in 'Methods' section of our manuscript
 
 ## Overview
 We propose a mathematical model describing the temporal dynamics of pain sensitization and recovery.  
