@@ -33,6 +33,10 @@ The simulations reproduce and fit data from:
 
 ---
 
+## License
+
+This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
+
 Installation
 
 > Tested with Python 3.8+.
@@ -43,7 +47,5 @@ git clone https://github.com/GuyMarmor/ChronicPainModel.git
 cd ChronicPainModel
 pip install numpy scipy matplotlib tqdm
 
-## License
 
-This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
 
